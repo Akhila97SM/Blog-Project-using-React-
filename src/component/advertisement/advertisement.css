@@ -1,0 +1,30 @@
+/* .container{
+    width: 1980px;
+    justify-content: center;
+    align-items: center;
+  
+} */
+
+.add{
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: center;
+    background-color:#E8E8EA ;
+    margin:120px;
+    border-radius: 7px;
+}
+
+.txtSm{
+    font-size: 14px;
+    color: #696A75;
+}
+
+.addLg{
+    font-size:24px;
+    color:#696A75;
+}
+
+.size{
+    font-size:18px;
+    color:#696A75;
+}

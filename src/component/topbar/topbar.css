@@ -1,0 +1,139 @@
+/* topbar.css */
+/* 
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.top {
+    width: 100%;
+    position: fixed; 
+    top: 0; 
+    background-color: #fff; 
+    /* background-color: #f8f8f8; */
+    /* border-bottom: 1px solid #e7e7e7; */
+}
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.topleft, .topcentre, .topright {
+    display: flex;
+    align-items: center;
+}
+
+.topleft i {
+    font-size: 30px;
+    margin-right: 10px;
+    background-color:#181A2A;
+    border-radius: 50%;
+    padding:2px 3px 3px 10px;
+    align-items: center;
+    margin-right: 0;
+    color: #E8E8EA;
+    font-weight: 800;
+}
+
+.topLeftSm {
+    font-size: 30px;
+    color: #141624;
+    margin-right: 5px;
+}
+
+.topLeftLg {
+    font-size: 40px;
+    color: #141624;
+    font-weight: bold;
+}
+
+.topcentre {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.navbarMenu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    margin: 0;
+}
+
+.navbarMenu li {
+    display: inline;
+}
+
+.navbarMenu li a {
+    text-decoration: none;
+    color: #3B3C4A;
+    font-size: 18px;
+}
+
+.navbarMenu li a:hover {
+    background-color: #9ea0c1;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px ;
+}
+
+.topright {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.search-button  {
+    font-size: 14px;
+    position: absolute;
+    color:#3B3C4A;
+    width: 5px;
+}
+
+
+.search {
+    flex: 1;
+    padding:0 0 0 14px ;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color:#E8E8EA ;
+    font-size: 16px;
+}
+
+.search::placeholder{
+    font-size: 15px;
+    padding: 22px;
+}
+
+.title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 90px;
+}
+
+.toptitle h4{
+    color:#181A2A ;
+}
+
+.toptitle {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.titleLf {
+    color: #3B3C4A;
+    
+}
+
+.titleRt{
+color: #696A75;
+
+}

@@ -1,0 +1,125 @@
+/* .container{
+    width: 1980px;
+} */
+
+.abt{
+    color: #181A2A;
+    font-size: 18px;
+}
+
+.para{
+    color: #696A75;
+    font-size: 16px;
+    line-height: 24px;
+    width: 370px;
+}
+
+.contact a {
+    color:#293151;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.contact{
+    list-style: none;
+    /* padding: 90px;  */
+}
+
+/* .contactInfo{
+    flex: 3;
+    align-items: center;
+    display: flex;
+    
+} */
+
+.footer{
+    display: flex;
+    margin-top: 50px;
+}
+
+.footerList a{
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footerTopCn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex: 4;
+}
+
+.footerTopCn a{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerTopLf{
+    width: 286px;
+    display: flex;
+    /* height: 236; */
+    gap: 20px;
+    flex-direction: column;
+    flex: 3;
+}
+
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    margin: 70px;
+}
+
+.footerleft{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footerLeft .fa-solidLogo{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footerLeft .logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeftSm{
+    font-size: 20px;
+    font-weight:400;
+    margin: 0;
+}
+
+.footerLeftLg{
+    font-size: 24px;
+    margin: 0;
+}
+
+.footerLeft p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footerRight{
+    display: flex;
+    align-items: center;
+}
+
+.footerRight h6{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.copyright{
+    display: flex;
+}
